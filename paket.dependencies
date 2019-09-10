@@ -6,7 +6,6 @@ nuget FSharp.Core redirects:force, content:none
 nuget Fable.Core
 nuget Fable.Elmish
 nuget Fable.React
-nuget Thoth.Elmish.FormBuilder
 nuget Fable.Promise
 
 group Grammars
