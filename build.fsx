@@ -37,7 +37,7 @@ let root = __SOURCE_DIRECTORY__
 let projectFile = "./src/Thoth.Elmish.FormBuilder.BasicFields.fsproj"
 
 let gitOwner = "thoth-org"
-let repoName = "Thoth.Elmish.Toast"
+let repoName = "Thoth.Elmish.FormBuilder.BasicFields"
 
 module Util =
 
