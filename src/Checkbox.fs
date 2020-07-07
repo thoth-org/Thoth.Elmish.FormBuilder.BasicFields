@@ -89,13 +89,13 @@ module Checkbox =
 type BasicCheckbox private (state : Checkbox.State) =
 
     member __.WithDefaultView () : FieldBuilder =
-        { Type = "basic-checkbrox"
+        { Type = "basic-checkbox"
           State = state
           Name = state.Name
           Config = Checkbox.config }
 
     member __.WithCustomView (view) : FieldBuilder =
-        { Type = "basic-checkbrox"
+        { Type = "basic-checkbox"
           State = state
           Name = state.Name
           Config = { Checkbox.config with View = view } }
