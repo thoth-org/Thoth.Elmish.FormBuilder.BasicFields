@@ -159,7 +159,7 @@ let pushNuget (newVersion: string) (projFile: string) =
             { o with ApiKey = nugetKey
                      PublishUrl = "https://www.nuget.org/api/v2/package"
                      WorkingDir = __SOURCE_DIRECTORY__
-                     ToolPath = ".paket/paket.exe" })
+                     ToolType = ToolType.CreateLocalTool() })
             files
 
 let clean = BuildTask.create "Clean" [] {

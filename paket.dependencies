@@ -7,6 +7,8 @@ nuget Fable.Core
 nuget Fable.Elmish
 nuget Fable.React
 nuget Fable.Promise
+nuget Thoth.Elmish.Debouncer
+nuget Thoth.Json
 
 group Grammars
     github akamud/vscode-theme-onelight themes/OneLight.json
